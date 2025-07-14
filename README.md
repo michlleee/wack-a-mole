@@ -2,7 +2,7 @@
 
 A fun browser-based game built with **HTML**, **CSS**, and **JavaScript** (with jQuery).  
 Smack as many moles as you can within 30 seconds!
-
+access the web here: https://michlleee.github.io/wack-a-mole/
 <img width="3194" height="1651" alt="image" src="https://github.com/user-attachments/assets/e7e8a973-0ffe-4feb-bab1-d52dae4af2e0" />
 
 ---
