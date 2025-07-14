@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wack a Mole</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="game-title">Wack A Mole</h1>
+    <div class="text-container">
+        <h2 class="text guide">Press any key to start!</h2>
+        <h2 class="text score hide">Score: </h2>
+    </div>
+    <button class="restart-btn hide">Restart</button>
+    <div class="game-board">
+        <div class="row">
+            <div type="button" class="hole hole-1">
+                <div id="1" class="mole-1">
+
+                </div>
+            </div>
+            <div type="button" class="hole hole-2">
+                <div id="2" class="mole-2">
+                
+                </div>
+            </div>
+            <div type="button" class="hole hole-3">
+                <div id="3" class="mole-3">
+                
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div type="button" class="hole hole-4">
+                <div id="4" class="mole-4">
+                
+                </div>
+            </div>
+            <div type="button" class="hole hole-5">
+                <div id="5" class="mole-5">
+                
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
